@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create account</title>
+    <style>
+ body {
+            height: 100vh;
+            margin: 0%;
+            display: grid;
+            ;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(54, 98, 143, 0.9), rgba(10, 104, 106, 0.9), rgba(37, 198, 61, 0.9), rgba(193, 105, 47, 0.9), rgba(74, 21, 199, 0.9));
+            animation: gradient 10s ease infinite;
+            background-size: 500% 500%;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+
+        }
+        #form1 form {
+            padding: 32% 3em;
+        }
+
+        #form1 form li {
+            border: 1px solid #FFC600;
+            list-style: none;
+            margin-bottom: 16px;
+            width: 100%;
+            background: #FFC600;
+        }
+
+        #form1 input[type="text"],
+        form input[type="password"] {
+            font-family: 'Open Sans', sans-serif;
+            width: 60%;
+            padding: 0.5em 2em 0.5em 30px;
+            color: #fff;
+            background: none;
+            border: none;
+        }
+
+        #form1 a {
+            text-decoration: none;
+        }
+
+        #form1 input[type='submit'] {
+            /* float: left; */
+            font-size: 18px;
+            display: inline-block;
+            font-weight: 600;
+            color: 615F5F;
+            transition: 0.1s all;
+            -webkit-transition: 0.1s all;
+            -moz-transition: 0.1s all;
+            -o-transition: 0.1s all;
+            cursor: pointer;
+            outline: none;
+            padding: 15px 10px;
+            margin-top: 3px;
+            font-family: 'Open Sans', sans-serif;
+            background: rgba(0, 0, 0, 0.09);
+            width: 45%;
+            border: none;
+        }
+
+        #form1 input[type='submit']:hover {
+            background: #FFC600;
+            border: 1px #FFC600;
+
+        }
+
+        #form1 .login-form {
+            background-size: 100%;
+            width: 37%;
+            margin-top: auto 4% auto;
+            position: relative;
+
+        }
+
+        #form1 .login-form h1 {
+            text-align: left;
+            color: #fff;
+            font-size: 1.8em;
+            font-weight: 500;
+            font-family: 'Open Sans', sans-serif;
+            position: absolute;
+            top: 7%;
+            left: 11%;
+            margin: 34px 0;
+        }
+
+        #form1 .login-form h2 a {
+            text-align: right;
+            color: #fff;
+            font: size 18px;
+            font-weight: 500;
+            font-family: 'Open Sans', sans-serif;
+            position: absolute;
+            top: 9.5%;
+            right: 11%;
+            margin: 34px 0;
+        }
+
+        #form1 .forgot h3 a {
+            color: #fff;
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            float: right;
+            font-weight: 600;
+            margin-top: 19px;
+        }
+
+        #form1 .forgot h3 a:hover {
+            color: #FFC600;
+        }
+    </style>
+</head>
+<body>
+    <section id="form1">
+        <div class="login-form">
+            <h1>Create account</h1>
+            
+            <form action="">
+                <li>
+                    <input type="text" class="text" required="required" placeholder="First name"><a href=""
+                        class="icon user"></a>
+                </li>
+                <li>
+                    <input type="text" class="text" required="required" placeholder="Last name"><a href=""
+                        class="icon user"></a>
+                </li>
+                <li>
+                    <input type="password" class="password" required="required" placeholder="password"><a href=""
+                        class="icon lock"></a>
+
+                </li>
+                <li>
+                    <input type="password" class="password" required="required" placeholder="Confirm password"><a href=""
+                        class="icon lock"></a>
+
+                </li>
+                    <input type="submit" value="Create account"><a href="success.html" class="Icon arrow"></a>
+                
+            </form>
+        </div>
+    </section>
+</body>
+</html>
